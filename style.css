@@ -1,0 +1,109 @@
+body {
+    background-image: url('https://i.pinimg.com/1200x/00/a1/91/00a1915977ae86deb0198b595e784482.jpg');
+    background-size: cover;
+    background-position: center;
+    margin: 0;
+    padding: 2rem 0;
+    font-family: Arial, sans-serif;
+}
+
+/* CONTAINER*/
+.container {
+    width: 450px;
+    margin: 0 auto;
+    background: rgba(255, 255, 255, 0.85);
+    padding: 1.5rem;
+    border-radius: 20px;
+    box-shadow: 0 0 20px rgba(100, 0, 150, 0.2);
+}
+
+/* TÍTULOS */
+.titulo {
+    text-align: center;
+    color: #5f2a82;
+    margin-bottom: 1rem;
+}
+
+.subtitulo {
+    margin: 1rem 0 0.5rem;
+    color: #7c3aad;
+}
+
+/* FORMULÁRIO */
+#form-add-todo {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+#form-add-todo input {
+    border: 1px solid #b98ae0;
+    padding: 0.5rem;
+    border-radius: 6px;
+}
+
+#form-add-todo button {
+    background: #a66bda;
+    border: none;
+    color: white;
+    padding: 0.6rem;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+#form-add-todo button:hover {
+    background: #8f53c9;
+}
+
+/* LISTAS */
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    background: #f2e6ff;
+    margin-bottom: 0.5rem;
+    padding: 0.7rem;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 0.3rem;
+}
+
+li .top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+li span {
+    font-size: 1rem;
+}
+
+.buttons {
+    display: flex;
+    gap: 0.5rem;
+}
+
+button.edit, button.delete {
+    padding: 0.2rem 0.5rem;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 0.8rem;
+}
+
+button.edit {
+    background-color: #d4b3ff;
+}
+
+button.delete {
+    background-color: #ffb3d6;
+}
+
+.desc {
+    font-size: 0.85rem;
+    color: #6b4a85;
+}
